@@ -1,0 +1,55 @@
+@font-face {
+    font-family: Vazir;
+    src: url("../fonts/Vazir-Regular.ttf") format("ttf");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Casablanca;
+    src: url("../fonts/Casablanca.Font.ttf") format("ttf");
+    font-weight: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Vazir;
+}
+
+body {
+    background-color: #1e1e1e;
+}
+
+.overflow {
+    flex-wrap: nowrap;
+    overflow: hidden;
+    height: 23rem;
+}
+
+.size {
+    width: 188px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.hr1 {
+    width: 130px;
+    height: 0;
+}
+
+.hr2 {
+    width: 160px;
+    height: 0;
+}
+
+.a-red {
+    color: #ff2929;
+    text-decoration: none;
+}
+
+.a-red:hover {
+    color: white;
+}
+
+

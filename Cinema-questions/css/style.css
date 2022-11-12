@@ -1,0 +1,35 @@
+@font-face {
+    font-family: Vazir;
+    src: url("../fonts/Vazir-Regular.ttf") format("ttf");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Casablanca;
+    src: url("../fonts/Casablanca.Font.ttf") format("ttf");
+    font-weight: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Vazir;
+}
+
+body {
+    background-color: #1c1a18;
+}
+
+.bg-black {
+    background-color: #000000;
+    color: #ffffff;
+    margin-top: 3rem;
+    border-radius: 8px;
+}
+
+.bg-blackk {
+    background-color: #353332;
+    border-radius:0 0 8px 8px;
+}
+
