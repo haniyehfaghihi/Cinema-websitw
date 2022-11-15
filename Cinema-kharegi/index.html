@@ -9,6 +9,8 @@
     integrity="sha384-+qdLaIRZfNu4cVPK/PxJJEy0B0f3Ugv8i482AKY7gwXwhaCroABd086ybrVKTa0q" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"> 
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
     <link rel="stylesheet" href="css/style.css">
 
 
@@ -17,59 +19,67 @@
 <body>
 
 
-    <div class="container">
+   
         <div class="row">
             <div class="d-flex justify-content-between mt-5 mb-4">
-                <h3 class="text-white">سریال های خانگی خارجی</h3>
+                <h3 class="text-white ms-5">سریال های خانگی خارجی</h3>
                 <a href="#" class="a-red">دیدن همه<i class="bi bi-chevron-compact-left"></i></a>
             </div> 
         </div>
 
-        <div class="row overflow">
-            <div class="size">
-                <div class="d-flex flex-column align-items-center ms-3">
-                    <hr class="text-white hr1">
-                    <hr class="text-white hr2">
-                </div> 
-                <img src="image/30116d838068e0571b85fdb9ea4b0a40.png" class="size" alt="">
+
+        
+            <div class="swiper-container overflow">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="hrs">
+                            <div class="div-hr1"></div>
+                            <div class="div-hr2"></div>
+                        </div>                        
+                        <img src="image/30116d838068e0571b85fdb9ea4b0a40.png" class="size mt-5" alt="">
+                    </div>
+                    <div class="swiper-slide ms-2">
+                        <div class="hrs">
+                            <div class="div-hr1"></div>
+                            <div class="div-hr2"></div>
+                        </div>   
+                        <img src="image/4bce0534078e31206636292a9808d822.png" class="size mt-5" alt="">
+                    </div>
+                    <div class="swiper-slide ms-2">
+                        <div class="hrs">
+                            <div class="div-hr1"></div>
+                            <div class="div-hr2"></div>
+                        </div>               
+                        <img src="image/504f025d1f213790901eae2c86e0600a.png" class="size mt-5" alt="">
+                    </div>
+                    <div class="swiper-slide ms-2">
+                        <div class="hrs">
+                            <div class="div-hr1"></div>
+                            <div class="div-hr2"></div>
+                        </div>   
+                        <img src="image/563fc688a18ae2f83b5151f1d944d944.png" class="size mt-5" alt="">
+                    </div>
+                    <div class="swiper-slide ms-2">
+                        <div class="hrs">
+                            <div class="div-hr1"></div>
+                            <div class="div-hr2"></div>
+                        </div>   
+                        <img src="image/969097f3a811e85781b9f95ee09c652a.png" class="size mt-5" alt="">
+                    </div>
+                    <div class="swiper-slide ms-2">
+                        <div class="hrs">
+                            <div class="div-hr1"></div>
+                            <div class="div-hr2"></div>
+                        </div>   
+                        <img src="image/bf8bc69d1d67238920f29668e5f61273.png" class="size mt-5" alt="">
+                    </div>
+                    <div class="swiper-slide size">
+                        <div class="bg"></div>
+                    </div>
+                </div>           
             </div>
-            <div class="size ms-2">
-                <div class="d-flex flex-column align-items-center ms-4">
-                    <hr class="text-white hr1">
-                    <hr class="text-white hr2">
-                </div> 
-                <img src="image/4bce0534078e31206636292a9808d822.png" class="size" alt="">
-            </div>
-            <div class="size ms-2">
-                <div class="d-flex flex-column align-items-center ms-4">
-                    <hr class="text-white hr1">
-                    <hr class="text-white hr2">
-                </div>                
-                <img src="image/504f025d1f213790901eae2c86e0600a.png" class="size" alt="">
-            </div>
-            <div class="size ms-2">
-                <div class="d-flex flex-column align-items-center ms-4">
-                    <hr class="text-white hr1">
-                    <hr class="text-white hr2">
-                </div> 
-                <img src="image/563fc688a18ae2f83b5151f1d944d944.png" class="size" alt="">
-            </div>
-            <div class="size ms-2">
-                <div class="d-flex flex-column align-items-center ms-4">
-                    <hr class="text-white hr1">
-                    <hr class="text-white hr2">
-                </div> 
-                <img src="image/969097f3a811e85781b9f95ee09c652a.png" class="size" alt="">
-            </div>
-            <div class="size ms-2">
-                <div class="d-flex flex-column align-items-center ms-4">
-                    <hr class="text-white hr1">
-                    <hr class="text-white hr2">
-                </div> 
-                <img src="image/bf8bc69d1d67238920f29668e5f61273.png" class="size" alt="">
-            </div>
-        </div>
-    </div>
+        
+    
     
 
 
@@ -80,6 +90,17 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <script>
+        new Swiper(".swiper-container", {
+            loop:true,
+            slidesPerView:6,
+            spaceBetween:50,
+        })
+
     </script>
     
 </body>
